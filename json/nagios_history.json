@@ -1,0 +1,382 @@
+{
+    "2025-06-25": [
+        {
+            "timestamp": 1750808412,
+            "datetime": "2025-06-25 01:40:12",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Network Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808412,
+            "datetime": "2025-06-25 01:40:12",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Network Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750808413,
+            "datetime": "2025-06-25 01:40:13",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 101] Network is unreachable')",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750808413,
+            "datetime": "2025-06-25 01:40:13",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 101] Network is unreachable')",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750808413,
+            "datetime": "2025-06-25 01:40:13",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 101] Network is unreachable')",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750808475,
+            "datetime": "2025-06-25 01:41:15",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808476,
+            "datetime": "2025-06-25 01:41:16",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 16.93 ms"
+        },
+        {
+            "timestamp": 1750808492,
+            "datetime": "2025-06-25 01:41:32",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1750808538,
+            "datetime": "2025-06-25 01:42:18",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808601,
+            "datetime": "2025-06-25 01:43:21",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808664,
+            "datetime": "2025-06-25 01:44:24",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808728,
+            "datetime": "2025-06-25 01:45:28",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808791,
+            "datetime": "2025-06-25 01:46:31",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808854,
+            "datetime": "2025-06-25 01:47:34",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750808917,
+            "datetime": "2025-06-25 01:48:37",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750809008,
+            "datetime": "2025-06-25 01:50:08",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;(Host check timed out after 31.03 seconds)"
+        },
+        {
+            "timestamp": 1750809071,
+            "datetime": "2025-06-25 01:51:11",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "3;(Service check timed out after 60.08 seconds)",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750809071,
+            "datetime": "2025-06-25 01:51:11",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "3;(Service check timed out after 60.01 seconds)",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750809072,
+            "datetime": "2025-06-25 01:51:12",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "3;(Service check timed out after 61.25 seconds)",
+            "service": "Disk C Usage"
+        },
+        {
+            "timestamp": 1750809072,
+            "datetime": "2025-06-25 01:51:12",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "3;(Service check timed out after 61.18 seconds)",
+            "service": "Event Log - Erreurs Système"
+        },
+        {
+            "timestamp": 1750809072,
+            "datetime": "2025-06-25 01:51:12",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "3;(Service check timed out after 61.16 seconds)",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750809669,
+            "datetime": "2025-06-25 02:01:09",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "3;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "Disk C Usage"
+        },
+        {
+            "timestamp": 1750809669,
+            "datetime": "2025-06-25 02:01:09",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "3;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750809669,
+            "datetime": "2025-06-25 02:01:09",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "3;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "Event Log - Erreurs Système"
+        },
+        {
+            "timestamp": 1750809670,
+            "datetime": "2025-06-25 02:01:10",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "3;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750809670,
+            "datetime": "2025-06-25 02:01:10",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "3;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750813213,
+            "datetime": "2025-06-25 03:00:13",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 14% free (499 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750813513,
+            "datetime": "2025-06-25 03:05:13",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 8% free (288 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750814113,
+            "datetime": "2025-06-25 03:15:13",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 11% free (377 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750814713,
+            "datetime": "2025-06-25 03:25:13",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 2% free (46 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750817184,
+            "datetime": "2025-06-25 04:06:24",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817247,
+            "datetime": "2025-06-25 04:07:27",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817310,
+            "datetime": "2025-06-25 04:08:30",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817373,
+            "datetime": "2025-06-25 04:09:33",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817436,
+            "datetime": "2025-06-25 04:10:36",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817499,
+            "datetime": "2025-06-25 04:11:39",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817562,
+            "datetime": "2025-06-25 04:12:42",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817625,
+            "datetime": "2025-06-25 04:13:45",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817688,
+            "datetime": "2025-06-25 04:14:48",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750817752,
+            "datetime": "2025-06-25 04:15:52",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;CRITICAL - Host Unreachable (192.168.11.103)"
+        }
+    ]
+}

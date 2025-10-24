@@ -1,0 +1,172 @@
+{
+    "success": true,
+    "hosts_count": 5,
+    "services_count": 14,
+    "backends_count": 1,
+    "contacts_count": 1,
+    "hosts": [
+        {
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "7h 44m 28s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "host": "nagios-server",
+            "status": "UP",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 7h 4m 47s",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 0.09 ms"
+        },
+        {
+            "host": "win-pc1",
+            "status": "DOWN",
+            "last_check": "2025-06-25 04:30:08",
+            "duration": "2h 42m 56s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "host": "win-pc2",
+            "status": "DOWN",
+            "last_check": "2025-06-25 04:30:52",
+            "duration": "16m 45s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "host": "win-pc3",
+            "status": "DOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "4h 30m 44s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.110)"
+        }
+    ],
+    "services": [
+        {
+            "host": "nagios-server",
+            "service": "Current Load",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:14",
+            "duration": "12h 48s",
+            "attempt": "HARD",
+            "status_info": "OK - load average: 3.25, 3.15, 2.51"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Current Users",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 7h 1m",
+            "attempt": "HARD",
+            "status_info": "USERS OK - 2 users currently logged in"
+        },
+        {
+            "host": "nagios-server",
+            "service": "HTTP",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 7h 26s",
+            "attempt": "HARD",
+            "status_info": "HTTP OK: HTTP\/1.1 200 OK - 10945 bytes in 0.001 second response time"
+        },
+        {
+            "host": "nagios-server",
+            "service": "PING",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 35m 25s",
+            "attempt": "HARD",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 0.12 ms"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Root Partition",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 7h 2m 28s",
+            "attempt": "HARD",
+            "status_info": "DISK OK - free space: \/ 83370 MiB (73.45% inode=93%):"
+        },
+        {
+            "host": "nagios-server",
+            "service": "SSH",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:14",
+            "duration": "1d 7h 30s",
+            "attempt": "HARD",
+            "status_info": "SSH OK - OpenSSH_9.6p1 Ubuntu-3ubuntu13.11 (protocol 2.0)"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Swap Usage",
+            "status": "CRITICAL",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1h 7m 20s",
+            "attempt": "HARD",
+            "status_info": "SWAP CRITICAL - 6% free (208 MB out of 3695 MB)"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Total Processes",
+            "status": "OK",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "1d 7h 4m 24s",
+            "attempt": "HARD",
+            "status_info": "PROCS OK: 97 processes with STATE = RSZDT"
+        },
+        {
+            "host": "win-pc1",
+            "service": "CPU Usage",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "2h 32m 22s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Disk C Usage",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "2h 32m 22s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Event Log - Erreurs Système",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "2h 32m 22s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Processus actifs",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:31:28",
+            "duration": "2h 51m 5s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "RAM Usage",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "2h 32m 22s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Windows Defender",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-25 04:30:13",
+            "duration": "2h 32m 22s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')"
+        }
+    ]
+}

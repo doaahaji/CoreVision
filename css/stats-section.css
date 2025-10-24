@@ -1,0 +1,255 @@
+/* ======================= Section 1 : Layout principal ======================= */
+.host-stats {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr; 
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+/* ======================= Graph, stats, blocs ======================= */
+.donut-graph,
+.stat-cards,
+.health-response-blocks,
+.total-boxes {
+  width: 100%;
+}
+/*
+.donut-graph,
+.stat-cards,
+.health-response-blocks,
+.total-boxes {
+  flex: 1 1 10px;
+}*/
+
+/* ======================= Section 1.1 : Donut ======================= */
+.donut-graph {
+  max-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donut-graph canvas {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.legend {
+  list-style: none;
+  padding: 0;
+  margin-top: 6px;
+  font-size: 11px;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.up { background: #10b981; }
+.dot.down { background: #ef4444; }
+.dot.unreachable { background: #f59e0b; }
+.dot.pending { background: #facc15; }
+
+/* ======================= Section 1.2 : Stat cards en grille ======================= */
+.stat-cards.vertical-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 240px;
+}
+
+.stat-cards.vertical-layout .stat-card.vertical {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.stat-cards.vertical-layout .stat-card.vertical i {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.stat-cards.vertical-layout .stat-card.vertical strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.stat-cards.vertical-layout .stat-card.vertical span {
+  font-size: 12px;
+  color: #555;
+}
+
+.stat-card.vertical.up i { color: #10b981; }
+.stat-card.vertical.down i { color: #ef4444; }
+.stat-card.vertical.unreachable i { color: #f59e0b; }
+.stat-card.vertical.pending i { color: #facc15; }
+
+/* Mode sombre */
+body.dark-mode .stat-cards.vertical-layout .stat-card.vertical {
+  background: #1f1f2e;
+  color: white;
+}
+
+body.dark-mode .stat-cards.vertical-layout .stat-card.vertical span {
+  color: #ccc;
+}
+
+/* ======================= Section 1.3 : Blocs santé / réponse ======================= */
+.health-response-blocks {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.health-card,
+.response-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 180px;
+  max-width: 260px;
+  font-size: 12px;
+}
+
+body.dark-mode .health-card,
+body.dark-mode .response-card {
+  background: #1f1f2e;
+  color: white;
+}
+
+.health-card h4,
+.response-card h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.health-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  flex: 1;
+  background: #e5e7eb;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: #10b981;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.percent {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.response-value {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.subtext {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+body.dark-mode .subtext {
+  color: #ccc;
+}
+
+/* ======================= Section 1.4 : Total boxes ======================= */
+.total-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 240px;
+}
+
+.stat-card.vertical {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card.vertical i {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #3b82f6;
+}
+
+.stat-card.vertical strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.stat-card.vertical span {
+  font-size: 12px;
+  color: #555;
+  display: block;
+  margin-bottom: 15px;
+}
+
+body.dark-mode .stat-card.vertical {
+  background: #1f1f2e;
+  color: white;
+}
+
+body.dark-mode .stat-card.vertical span {
+  color: #ccc;
+}
+
+/* ======================= Affichage/Masquage ======================= */
+.host-stats-wrapper {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.host-stats-wrapper.collapsed {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.host-stats-wrapper.expanded {
+  max-height: 2000px;
+  opacity: 1;
+  pointer-events: auto;
+}

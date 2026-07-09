@@ -132,7 +132,7 @@ L'application offre une interface permettant de :
 - suivre l'état général du réseau.
 
 <p align="center">
-  <a href="https://github.com/doaahaji/CoreVision/demo/demonstration.mp4">
+  <a href="demo/demonstration.mp4">
     <img src="demo/plateforme.png" width="900" alt="Vidéo de démonstration CoreVision">
   </a>
 </p>
